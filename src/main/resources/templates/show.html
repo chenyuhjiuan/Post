@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Show result</title>
+</head>
+<body>
+
+Post Date :<span th:text="${post.posteddate}"></span><br/>
+Post Content :<textarea rows="3" th:text="${post.content}"></textarea><br/>
+
+<a href="/add">Return to the Post area</a>
+</body>
+</html>
